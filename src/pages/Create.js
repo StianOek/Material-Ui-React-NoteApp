@@ -56,7 +56,7 @@ function Create() {
 
     return (
         <Container>
-            <Typography  variant="h6" component="h2" gutterBottom color="info">
+            <Typography color="secondary"  variant="h4" component="h2" gutterBottom >
                 Ley down a note to remember
             </Typography>
 
@@ -66,6 +66,7 @@ function Create() {
                     className={classes.field}
                     label="Title"
                     variant="outlined"
+                    color="secondary"
                     fullWidth
                     required
                     error={titleError}
@@ -75,6 +76,7 @@ function Create() {
                     className={classes.field}
                     label="Content"
                     variant="outlined"
+                    color="secondary"
                     multiline
                     rows={4}
                     fullWidth
@@ -82,7 +84,7 @@ function Create() {
                     error={contentError}
                 ></TextField>
                 <FormControl className={classes.field}>
-                    <FormLabel>Note category</FormLabel>
+                    <FormLabel color="secondary">Note category</FormLabel>
                     <RadioGroup value={category} onChange={(e) => setCategory(e.target.value)}>
                         <FormControlLabel value="money" control={<Radio />} label="Money" />
                         <FormControlLabel value="todos" control={<Radio />} label="Todos" />
@@ -90,7 +92,7 @@ function Create() {
                         <FormControlLabel value="work" control={<Radio />} label="Work" />
                     </RadioGroup>
                 </FormControl>
-                <Button  type="submit" color="primary" variant="contained" startIcon={<AdbOutlinedIcon />}>
+                <Button  type="submit" color="secondary" variant="contained" startIcon={<AdbOutlinedIcon />}>
                     Create
                 </Button>
 
