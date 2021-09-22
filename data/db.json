@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {
+      "title": "Edwins 2års kontroll",
+      "content": "Husk 2 års kontrollen til Edwin 15.09.21",
+      "reminders": "reminders",
+      "id": 1
+    },
+    {
+      "title": "Sebs notes",
+      "content": "Gjøre ferdig notatene til zeipt.com fra seb",
+      "reminders": "work",
+      "id": 2
+    },
+    {
+      "title": "Spis en god middag",
+      "content": "Må fikse deg middag så du blir god og mett",
+      "reminders": "todos",
+      "id": 3
+    },
+    {
+      "title": "Zeipt",
+      "content": "Legge til fix",
+      "category": "work",
+      "id": 4
+    }
+  ]
+}
